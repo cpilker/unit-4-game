@@ -34,10 +34,10 @@
                     console.log(crystalNum);
                 }
                 console.log(crystal);
-                console.log('crystal1', crystal1);
-                console.log('crystal2', crystal2);
-                console.log('crystal3', crystal3);
-                console.log('crystal4', crystal4);
+                //console.log('crystal1', crystal1);
+                //console.log('crystal2', crystal2);
+               // console.log('crystal3', crystal3);
+                //console.log('crystal4', crystal4);
                 crystal1.val(crystal[0]);
                 crystal2.val(crystal[1]);
                 crystal3.val(crystal[2]);
@@ -57,7 +57,7 @@
             
 
         //As you select more cyrstals the numbers should add up
-            $(".image").on("click", function() {
+            $(".img-thumbnail").on("click", function() {
                 
 	            score += parseInt($(this).val());
 	            $("#My-guess").text(score);

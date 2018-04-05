@@ -25,15 +25,14 @@
         #Record {
             background-color: aqua;
             border: 1px solid grey;
+            margin-left: 5px;
         }
 
 
-        img {
-            width: 150px;
-            height: 150px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-
+        .img-thumbnail {
+            width: 125px;
+            height: 125px;
+            margin: 5px 5px 5px 0;
         }
         
         .results {
