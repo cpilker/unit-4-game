@@ -1,0 +1,57 @@
+/* Begin CSS */
+
+        .jumbotron {
+            padding-top: 32px;
+            padding-bottom: 32px;
+        }
+        .row {
+            margin-left: 10px;
+        }
+
+        .instructions {
+            border: 1px solid grey;
+            margin-bottom: 5px;
+            background-color: moccasin;
+            font-size: 18px;
+            font-weight: bold;
+            color: green;
+        }
+
+        #Points_needed {
+            background-color: aqua;
+            border: 1px solid grey;
+        }
+
+        #Record {
+            background-color: aqua;
+            border: 1px solid grey;
+        }
+
+
+        img {
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        
+        .results {
+            background-color: green;
+            width: auto;
+            margin-bottom: 5px;
+            text-align: center;
+            border: 1px solid grey;
+            color: rgb(3, 2, 2);
+        }
+
+        #Score {
+            font-size: 20px;
+            text-align: left;
+            color: white;
+        }
+        #My-guess {
+            font-size: 36px;
+            text-align: left;
+            color: white;
+        }

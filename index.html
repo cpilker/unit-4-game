@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chrystals Game</title>
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/JavaScript"></script>
+    <script src="assets/javascript/game.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body background="assets/images/dust_scratches.png">
+    <div class="jumbotron">
+            <h1 class="text-center">Crystals Collector</h1>
+    </div>
+
+    <!-- Instructions -->
+    
+    <div>
+        <div class="row">
+            <div class="col-xs-8 col-sm-8 col-md-8 instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total socre.</p>
+                <p>You wil the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Number generator and results -->
+
+    <div class="Results-area">
+        <div class="row">
+            <div class="col-sm-4 col-md-4" id="Points_needed">
+                <div id="Auto-number">Your Points to Need to Add to: <span id="computer-number"></span></div>
+            </div>
+
+    <!-- Wins & Losses -->
+            <div class="col-md-2" id="Record">
+                <div><span id="Results-Statement"></span></div>
+                <div>Wins: <span id="Wins">0</span></div>
+                <div>Losses: <span id="Losses">0</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Crystal Images -->
+    <div class="crystal-images">
+        <div class="row">
+                <div class="col-sm-4 col-md-2">
+                    <img class="image" src="assets/images/test.jpg" id="crystal1" val="" alt="cyrstal">
+                </div>
+                <div class="col-sm-4 col-md-2">
+                    <img class="image" src="assets/images/test2.jpg" id="crystal2" val="" alt="crystal">
+                </div>
+                <div class="col-sm-4 col-md-2">
+                    <img class="image" src="assets/images/test3.jpg" id="crystal3" val="" alt="crystal">     
+                </div>
+                <div class="col-sm-4 col-md-2">
+                    <img class="image" src="assets/images/test4.jpg" id="crystal4" val="" alt="crystal">
+                </div> 
+        </div>
+    </div>
+
+    <!-- Sum of my guesses -->
+    <div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 results">
+                <h4 id="Score">Your total score is</h3>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 results"><span id="My-guess">0</span></div>
+        </div>
+    </div>
+
+</body>
+</html>
